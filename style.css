@@ -1,0 +1,97 @@
+
+
+body{
+    background-color: #f2ebeb;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("assets/nature.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+h1{
+   padding-top: 10%;
+   margin-left: 30px;
+    text-align: center;
+    background-image: url();
+}
+
+h2{
+    padding-top: 30px;
+    text-align: center;
+    font-size: medium;
+}
+
+
+#pfp{
+ margin-left: 37%;
+ margin-top: 5%;
+ border: solid 5px;
+ border-radius: 50%;
+ border-color: bisque;
+}
+
+.dropdown {
+    float: left;
+    transition: .3s ease-in-out;
+    padding-left: 12px;
+    padding-top: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+
+}
+
+.dropdown a {
+    float: left;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+}
+
+
+.dropdown:hover {
+    color: #fca311;
+}
+
+
+.navcontent {
+    display: none;
+    position: fixed;
+    background-color: #e5e5e5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #061a44;
+    z-index: 1;
+    transition: .3s ease-in-out;
+
+}
+
+.navcontent a {
+    float: none;
+    color: black;
+    margin-top: 12px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    transition: 0.3s ease-in-out;
+}
+
+.navcontent a:hover {
+    background-color: #14213d;
+    color: #fca311;
+}
+
+.navcontent a:active {
+    background-color: rgb(9, 47, 117);
+}
+
+.dropdown:hover .navcontent {
+    display: block;
+    z-index: 1;
+}
+
